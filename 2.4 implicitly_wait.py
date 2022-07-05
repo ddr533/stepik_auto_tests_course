@@ -13,4 +13,4 @@ message = browser.find_element(By.ID, "verify_message")
 
 assert "successful" in message.text
 if 'successful' in message.text:
-    print('тест пройден')
+    print('тест пройден успешно')
